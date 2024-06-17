@@ -1,3 +1,8 @@
 .logo {
-    font-size: 32px;
+    // font-size: 32px;
+    transition: all 0.2s ease-in;
+    &:hover {
+        transform: scale(1.02);
+        // filter: contrast(130%) brightness(1.1) saturate(1.1);
+    }
 }

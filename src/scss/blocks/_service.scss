@@ -1,0 +1,31 @@
+.service {
+    padding: 80px 0 90px;
+}
+
+.service__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.service__item {
+}
+.service__item-img {
+    margin-bottom: 30px;
+}
+.service__item-title {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000;
+}
+.service__item-content {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #000;
+}

@@ -1,0 +1,37 @@
+.section-hero {
+    position: relative;
+    height: 700px;
+    background-color: #f1f1f1;
+    &::after {
+        content: url("./../../img/hero/hero.png");
+        position: absolute;
+        width: 494px;
+        height: 613px;
+        top: 76px;
+        right: 30px;
+    }
+}
+.container {
+    height: 100%; //задаем чтобы растянуть весь блок внутри по высоте и выравнять по флексу
+}
+.hero__content {
+    height: 100%; //задаем чтобы растянуть весь блок внутри по высоте и выравнять по флексу
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.section-hero__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 44px;
+    color: #000;
+}
+.section-hero__grid {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #000;
+}

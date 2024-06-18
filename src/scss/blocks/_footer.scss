@@ -1,8 +1,8 @@
 .footer {
-	background-color: rgb(39, 39, 39);
-	padding: 50px 0;
-	font-size: 32px;
-	color: #fff;
+	background-color: #fff;
+	padding: 90px 0;
+	// font-size: 32px;
+	// color: #fff;
 
 	h1 {
 		font-size: 32px;
@@ -19,7 +19,38 @@
 	}
 }
 
+.footer__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+.title.footer__title {
+	margin-bottom: 0px;
+}
+.footer__content {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	color: #070707;
+}
+
+.footer__nav-list {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	gap: 61px;
+}
+.footer__icons {
+}
+
 .footer__copyright {
-	padding: 10px 0;
-	font-size: 16px;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+	color: #828282;
 }

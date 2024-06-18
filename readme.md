@@ -1,28 +1,10 @@
-# Gulp сборка для верстки сайтов от [ВебКадеми](https://webcademy.ru)
+# Freelancer page simple layout
 
 - HTML,
 - SCSS,
 - Gulp,
 - JS
+- Swiper
+- Animation
 
-Документация и примеры использования внутри.
-
-Установить зависимости:
-
-```
-npm i
-```
-
-Запустить в режиме разработки:
-
-```
-gulp
-```
-
-Собрать версию для публикации:
-
-```
-gulp docs
-```
-
-[Смотреть демо](https://user.github.io/repo/)
+[Watch demo](https://user.github.io/repo/)

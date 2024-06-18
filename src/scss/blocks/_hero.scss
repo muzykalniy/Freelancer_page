@@ -2,13 +2,25 @@
     position: relative;
     height: 700px;
     background-color: #f1f1f1;
+    @include mobile {
+        height: 650px;
+    }
+
     &::after {
-        content: url("./../../img/hero/hero.png");
+        content: "";
         position: absolute;
         width: 494px;
         height: 613px;
         top: 76px;
         right: 360px;
+        background: url("./../../img/hero/hero.png") no-repeat center center;
+        background-size: contain; // Изменяет размер изображения без обрезания и потери качества
+        @include mobile {
+            width: 296px;
+            height: 367px;
+            top: 43.5%;
+            left: 13%;
+        }
     }
 }
 .container {
@@ -21,14 +33,31 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    @include mobile {
+        padding-top: 50px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
 }
 .section-hero__title {
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 44px;
     color: #000;
+    @include mobile {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 34px;
+        color: #000;
+    }
 }
-.section-hero__grid {
+.section-hero__title--modificator {
+    @include mobile {
+        font-size: 28px;
+    }
+}
+.section-hero__content {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;

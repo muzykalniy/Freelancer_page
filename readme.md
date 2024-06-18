@@ -7,4 +7,4 @@
 - Swiper
 - Animation
 
-[Watch demo](https://user.github.io/repo/)
+[Watch demo](https://muzykalniy.github.io/Freelancer_page/)

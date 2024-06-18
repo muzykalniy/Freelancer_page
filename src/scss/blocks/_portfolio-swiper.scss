@@ -1,0 +1,28 @@
+.swiper-slide {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 40px !important;
+}
+.swiper-slide-img {
+}
+.swiper-slide-link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #070707;
+    &:hover {
+        color: #606060;
+    }
+}
+.swiper-slide-link_wrapper {
+    transition: all 0.2s ease-in;
+    &:hover {
+        transform: scale(1.1);
+        filter: contrast(130%) brightness(1.1) saturate(1.1);
+    }
+}

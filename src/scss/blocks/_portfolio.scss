@@ -5,6 +5,9 @@
     .container {
         height: 100%;
     }
+    @include mobile {
+        padding-top: 60px;
+    }
 }
 
 .portfolio__wrapper {
@@ -19,6 +22,9 @@
     font-size: 34px;
     text-align: center;
     color: #070707;
+    @include mobile {
+        margin-bottom: 50px;
+    }
 }
 .portfolio__swiper-wrapper {
 }
